@@ -1,13 +1,12 @@
 body {
     min-width: 365px;
-    background-image: url('../images/bg.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.5)),
+                      url('../images/bg.jpg') repeat center center /cover;
 }
 
 .main-content {
-    max-width: 85%;
+    max-width: 95%;
 }
 
 .heading-font {
@@ -18,10 +17,6 @@ body {
 
 .card-font {
     font-family: 'Indie Flower', cursive;
-}
-
-.card-shadow {
-    box-shadow: 5px 8px 20px #444;
 }
 
 .heading {
