@@ -1,5 +1,9 @@
 body {
     min-width: 365px;
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .main-content {
