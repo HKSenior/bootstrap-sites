@@ -1,0 +1,38 @@
+.heading-font {
+    font-family: 'Wendy One', sans-serif;
+}
+
+.card-font {
+    font-family: 'Indie Flower', cursive;
+}
+
+.bg-img {
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.4)), url('../images/bg.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.heading {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: #222;
+    width: 70%;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all .5s;
+}
+
+.card {
+    transition: transform .3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card:hover .heading {
+    opacity: 1;
+}
